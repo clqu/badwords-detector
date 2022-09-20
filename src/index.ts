@@ -1,1 +1,1 @@
-export { BadwordsFilter } from "./lib/";
+export { Detector } from "./lib/";

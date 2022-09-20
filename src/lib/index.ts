@@ -1,6 +1,6 @@
 import Badwords from '../badwords.json';
 
-export class BadwordsFilter {
+export class Detector {
     private badwords: string[];
 
     constructor() {

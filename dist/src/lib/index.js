@@ -3,9 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BadwordsFilter = void 0;
+exports.Detector = void 0;
 const badwords_json_1 = __importDefault(require("../badwords.json"));
-class BadwordsFilter {
+class Detector {
     badwords;
     constructor() {
         this.badwords = badwords_json_1.default;
@@ -32,4 +32,4 @@ class BadwordsFilter {
         this.badwords = words;
     }
 }
-exports.BadwordsFilter = BadwordsFilter;
+exports.Detector = Detector;

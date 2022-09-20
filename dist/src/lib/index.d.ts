@@ -1,4 +1,4 @@
-export declare class BadwordsFilter {
+export declare class Detector {
     private badwords;
     constructor();
     filter(text: string): string;
